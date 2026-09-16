@@ -2,12 +2,6 @@
   const menuButton = document.querySelector('.menu-button');
   const nav = document.querySelector('.primary-nav');
 
-  // GitHub Pages paths are case-sensitive. The uploaded image is .JPG.
-  const heroImage = document.querySelector('.hero-media img');
-  if (heroImage?.getAttribute('src') === 'Team At Comp 2025.png') {
-    heroImage.src = 'Team At Comp 2025.png';
-  }
-
   // Keep the plus sign the same size and weight as the sponsorship price.
   document.querySelectorAll('.tier-price span').forEach(span => {
     span.style.fontSize = 'inherit';
