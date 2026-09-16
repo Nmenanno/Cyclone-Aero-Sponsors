@@ -71,9 +71,9 @@
         'Additional information:',
         message || 'No additional details provided.',
         '',
-        'Please send us the appropriate next steps, including Iowa State Foundation giving instructions when applicable.',
+        'We have reviewed the giving options on the sponsorship site. Please follow up regarding partnership benefits, recognition, and any remaining next steps.',
         '',
-        `Thank you,`,
+        'Thank you,',
         name
       ].join('\n');
 
