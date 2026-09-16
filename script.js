@@ -4,8 +4,8 @@
 
   // GitHub Pages paths are case-sensitive. The uploaded image is .JPG.
   const heroImage = document.querySelector('.hero-media img');
-  if (heroImage?.getAttribute('src') === 'team-leads-subleads.jpg') {
-    heroImage.src = 'team-leads-subleads.JPG';
+  if (heroImage?.getAttribute('src') === 'Team At Comp 2025.png') {
+    heroImage.src = 'Team At Comp 2025.png';
   }
 
   // Keep the plus sign the same size and weight as the sponsorship price.
