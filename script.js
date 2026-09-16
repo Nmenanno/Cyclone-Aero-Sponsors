@@ -2,6 +2,18 @@
   const menuButton = document.querySelector('.menu-button');
   const nav = document.querySelector('.primary-nav');
 
+  // GitHub Pages paths are case-sensitive. The uploaded image is .JPG.
+  const heroImage = document.querySelector('.hero-media img');
+  if (heroImage?.getAttribute('src') === 'team-leads-subleads.jpg') {
+    heroImage.src = 'team-leads-subleads.JPG';
+  }
+
+  // Keep the plus sign the same size and weight as the sponsorship price.
+  document.querySelectorAll('.tier-price span').forEach(span => {
+    span.style.fontSize = 'inherit';
+    span.style.fontWeight = 'inherit';
+  });
+
   if (menuButton && nav) {
     menuButton.addEventListener('click', () => {
       const isOpen = nav.classList.toggle('open');
