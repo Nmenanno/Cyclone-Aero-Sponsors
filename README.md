@@ -7,8 +7,8 @@ A static, no-backend sponsorship landing page designed for GitHub Pages, Vercel,
 - `index.html` — page structure and sponsorship copy
 - `styles.css` — Iowa State / Cyclone Aero visual styling
 - `script.js` — mobile menu, scroll effects, tier selection, and pre-filled sponsorship email generation
-- `assets/team-photo.png` — team hero photo
-- `assets/Cyclone_Aero_Design_2026-2027_Sponsorship_Packet.pptx` — current sponsorship packet
+- `team-leads-subleads.JPG` and `team-leads.jpg` — website photographs
+- `New Sponsorship Package.pdf` — currently linked packet; its financial figures are superseded by the website until a corrected packet is supplied
 
 ## Fastest free deployment: GitHub Pages
 
@@ -36,9 +36,34 @@ Search `index.html` for:
 - `aero.sae@iastate.edu`
 
 ### 4. Replace the packet file later if needed
-Keep the same filename so the website link does not need to change:
-`assets/Cyclone_Aero_Design_2026-2027_Sponsorship_Packet.pptx`
+The website currently links to `New Sponsorship Package.pdf`. Leave the existing PDFs unchanged until a corrected packet is supplied. On replacement, verify every website packet link points to the final file and review obsolete duplicates for removal. The website explicitly states that its financial figures supersede the current packet.
 
 ## No backend required
 
 The sponsorship interest form does not save personal information. It builds a pre-filled email in the sponsor's default email application and sends nothing until the sponsor chooses to send it.
+
+## Final 2026–2027 financial position
+
+The finalized Aero Budget Tracker is authoritative; the financial position supplied October 6, 2026 is:
+
+- Overall public season budget target: **$29,000**, not the amount still needed from sponsors.
+- Exact modeled expected cost: **$28,633.57** (public display: approximately **$28,634**).
+- Available cash: **$6,118.93**.
+- Exact additional funding needed: **$21,559.82** (public display: approximately **$21,560**).
+- Reconciliation: $954.82 spent + $775.88 committed + $26,902.87 remaining projected purchases = $28,633.57. Additional need = $775.88 + $26,902.87 − $6,118.93 − $0 confirmed future funding.
+
+| Public allocation | Display |
+| --- | ---: |
+| Travel + Competition | $17,000 |
+| Structures | $2,620 |
+| Electrical | $2,900 |
+| Manufacturing | $1,040 |
+| Aerodynamics | $1,200 |
+| Programming | $0 |
+| Outreach + Operations | $2,930 |
+| Engineering Reserves | $890 |
+| Other / Unassigned | $42.47 |
+
+Category displays are rounded and need not sum to the exact modeled total. The $17,000 travel allocation includes the approximately $14,405.60 base known/planned travel estimate plus a $2,594.40 intentional competition travel reserve. It covers registrations, airfare, lodging, truck/trailer transportation, rental vehicles, fuel, baggage, parking, reasonable team meals, local transportation, and contingencies; it is not all booked, spent, or committed.
+
+Outreach includes the $2,000 projected polos/merchandise allowance, neither spent nor committed and without engineering reserve markup. Sponsorship thresholds remain Bronze $250+, Silver $1,000+, Gold $2,500+, and Cardinal $5,000+.
