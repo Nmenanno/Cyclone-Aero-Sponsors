@@ -5,6 +5,7 @@ A static, no-backend sponsorship landing page designed for GitHub Pages, Vercel,
 ## Included
 
 - `index.html` — page structure and sponsorship copy
+- `budget-details.html` — sponsor-safe aggregate reconciliation and planning scope
 - `styles.css` — Iowa State / Cyclone Aero visual styling
 - `script.js` — mobile menu, scroll effects, tier selection, and pre-filled sponsorship email generation
 - `team-leads-subleads.JPG` and `team-leads.jpg` — website photographs
@@ -42,28 +43,29 @@ The website currently links to `New Sponsorship Package.pdf`. Leave the existing
 
 The sponsorship interest form does not save personal information. It builds a pre-filled email in the sponsor's default email application and sends nothing until the sponsor chooses to send it.
 
-## Final 2026–2027 financial position
+## Current financial snapshot — October 6, 2026
 
-The finalized Aero Budget Tracker is authoritative; the financial position supplied October 6, 2026 is:
+Authoritative inputs: the locally exported `Aero_Sponsor_Budget_Summary.json` (schema 2, Shared Marketing and redistributed engineering reserves revision) and `Budget_Tracker_Guide.md`. Neither internal source file is published.
 
-- Overall public season budget target: **$29,000**, not the amount still needed from sponsors.
-- Exact modeled expected cost: **$28,633.57** (public display: approximately **$28,634**).
-- Available cash: **$6,118.93**.
-- Exact additional funding needed: **$21,559.82** (public display: approximately **$21,560**).
-- Reconciliation: $954.82 spent + $775.88 committed + $26,902.87 remaining projected purchases = $28,633.57. Additional need = $775.88 + $26,902.87 − $6,118.93 − $0 confirmed future funding.
+- Public **current-season expense target: $31,000**. It is not the amount still needed and excludes next-year cash.
+- Exact current-season expense model: **$30,498.34**.
+- Additional funding for remaining current-season expenses: **$23,424.59**, publicly approximately **$23,420**.
+- Additional funding including the separate **$8,000 next-year cash goal: $31,424.59**, publicly approximately **$31,420**. This objective includes the expense-only gap; do not add the gaps together.
 
-| Public allocation | Display |
-| --- | ---: |
-| Travel + Competition | $17,000 |
-| Structures | $2,620 |
-| Electrical | $2,900 |
-| Manufacturing | $1,040 |
-| Aerodynamics | $1,200 |
-| Programming | $0 |
-| Outreach + Operations | $2,930 |
-| Engineering Reserves | $890 |
-| Other / Unassigned | $42.47 |
+Aggregate reconciliation and exact allocations are on `budget-details.html`. Public allocation displays:
 
-Category displays are rounded and need not sum to the exact modeled total. The $17,000 travel allocation includes the approximately $14,405.60 base known/planned travel estimate plus a $2,594.40 intentional competition travel reserve. It covers registrations, airfare, lodging, truck/trailer transportation, rental vehicles, fuel, baggage, parking, reasonable team meals, local transportation, and contingencies; it is not all booked, spent, or committed.
+- Travel + Competition: $16,000
+- Structures: $4,890
+- Electrical: $3,300
+- Manufacturing: $2,200
+- Aerodynamics: $0
+- Programming: $380
+- Marketing: $2,570
+- Engineering Reserves: $1,120
+- Other / Unassigned: $42.47
 
-Outreach includes the $2,000 projected polos/merchandise allowance, neither spent nor committed and without engineering reserve markup. Sponsorship thresholds remain Bronze $250+, Silver $1,000+, Gold $2,500+, and Cardinal $5,000+.
+Figures are rounded for presentation and may not sum exactly. Shared expenses, the merchandise allowance and the engineering reserve pool are counted once. Travel is planned, not booked or paid. Marketing includes the $2,000 merchandise allowance inside its $2,500 outreach/operations allowance, plus $72.33 field access.
+
+Keep raw transactions, donor-level amounts, private planning notes, tracker editing forms and backups out of public files. The detail page is publicly accessible and contains only approved aggregate financial information; it is not access-controlled.
+
+No build system or package-based test/lint configuration is present; this is a static site. Validate calculations against the current export, inspect financial references and local links, check mobile/tablet/desktop layouts, and exercise navigation and the email form without sending a message. Preserve tiers, benefits and unrelated content.

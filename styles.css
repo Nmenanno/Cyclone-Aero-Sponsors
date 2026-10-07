@@ -354,3 +354,15 @@ button { cursor: pointer; }
   .sponsor-form { padding: 24px 18px; }
   .footer-layout { align-items: flex-start; flex-direction: column; }
 }
+
+/* Sponsor financial figures: retain the existing site palette and layout. */
+.budget-item strong { text-align: right; font-variant-numeric: tabular-nums; }
+.financial-table-wrap { overflow-x: auto; margin: 24px 0; }
+.financial-table { width: 100%; border-collapse: collapse; background: white; }
+.financial-table caption { text-align: left; font-weight: 800; margin-bottom: 12px; }
+.financial-table th, .financial-table td { padding: 14px; border-bottom: 1px solid var(--line); text-align: left; }
+.financial-table thead { background: var(--ink); color: white; }
+.financial-table tbody tr:nth-child(even) { background: #ecebe7; }
+.financial-table .numeric { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.financial-notes { padding-left: 22px; }
+.financial-notes li { margin: 16px 0; }
