@@ -55,10 +55,10 @@ Authoritative inputs: the locally exported `Aero_Sponsor_Budget_Summary.json` (s
 Aggregate reconciliation and exact allocations are on `budget-details.html`. Public allocation displays:
 
 - Travel + Competition: $16,000
-- Structures: $4,890
+- Structures: $4,000
 - Electrical: $3,300
 - Manufacturing: $2,200
-- Aerodynamics: $0
+- Aerodynamics: $890
 - Programming: $380
 - Marketing: $2,570
 - Engineering Reserves: $1,120
@@ -69,3 +69,7 @@ Figures are rounded for presentation and may not sum exactly. Shared expenses, t
 Keep raw transactions, donor-level amounts, private planning notes, tracker editing forms and backups out of public files. The detail page is publicly accessible and contains only approved aggregate financial information; it is not access-controlled.
 
 No build system or package-based test/lint configuration is present; this is a static site. Validate calculations against the current export, inspect financial references and local links, check mobile/tablet/desktop layouts, and exercise navigation and the email form without sending a message. Preserve tiers, benefits and unrelated content.
+
+### October 7 allocation-only update
+
+Moved $890 from Structures to Aerodynamics for wind-tunnel model manufacturing. Structures is now $4,001.74 exact ($4,000 displayed); Aerodynamics is $890.00 ($890 displayed). The season expense model, public expense target, both funding objectives, and every other allocation are unchanged.
