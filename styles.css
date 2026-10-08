@@ -112,8 +112,8 @@ button { cursor: pointer; }
 .hero-note { margin: 24px 0 0; max-width: 600px; color: #9297a1; font-size: .82rem; font-weight: 700; letter-spacing: .03em; }
 .hero-media { margin: 0; position: relative; border: 1px solid rgba(255,255,255,.13); box-shadow: 0 35px 80px rgba(0,0,0,.35); }
 .hero-media::before { content: ""; position: absolute; inset: -11px 18px auto -11px; height: 4px; background: linear-gradient(90deg, var(--cardinal), var(--gold)); z-index: 2; }
-.hero-media img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: center; }
-.hero-media figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 24px; display: grid; gap: 3px; background: linear-gradient(transparent, rgba(0,0,0,.88)); }
+.hero-media img { display: block; width: 100%; height: auto; object-fit: contain; }
+.hero-media figcaption { position: relative; padding: 18px 24px; display: grid; gap: 3px; border-top: 1px solid rgba(255,255,255,.12); background: linear-gradient(110deg, #1d1e24, #121317); }
 .hero-media figcaption strong { font-size: 1.05rem; }
 .hero-media figcaption span { color: #d1d2d5; font-size: .85rem; }
 
