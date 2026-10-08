@@ -111,7 +111,7 @@ button { cursor: pointer; }
 .hero-lede { max-width: 620px; margin: 28px 0 30px; color: #d1d3d9; font-size: clamp(1.08rem, 1.8vw, 1.35rem); }
 .hero-note { margin: 24px 0 0; max-width: 600px; color: #9297a1; font-size: .82rem; font-weight: 700; letter-spacing: .03em; }
 .hero-media { margin: 0; position: relative; border: 1px solid rgba(255,255,255,.13); box-shadow: 0 35px 80px rgba(0,0,0,.35); }
-.hero-media::before { content: ""; position: absolute; inset: -11px 18px auto -11px; height: 4px; background: linear-gradient(90deg, var(--cardinal), var(--gold)); z-index: 2; }
+.hero-media::before { content: ""; position: absolute; inset: -11px 18px auto 18px; height: 4px; background: linear-gradient(90deg, var(--cardinal), var(--gold)); z-index: 2; }
 .hero-media img { display: block; width: 100%; height: auto; object-fit: contain; }
 .hero-media figcaption { position: relative; padding: 18px 24px; display: grid; gap: 3px; border-top: 1px solid rgba(255,255,255,.12); background: linear-gradient(110deg, #1d1e24, #121317); }
 .hero-media figcaption strong { font-size: 1.05rem; }
